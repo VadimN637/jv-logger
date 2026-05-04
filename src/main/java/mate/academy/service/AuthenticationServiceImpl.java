@@ -24,3 +24,4 @@ public class AuthenticationServiceImpl implements AuthenticationService {
         throw new RuntimeException("Invalid credentials");
     }
 }
+
