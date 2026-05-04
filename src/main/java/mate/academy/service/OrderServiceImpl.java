@@ -1,13 +1,12 @@
 package mate.academy.service;
 
+import mate.academy.model.Order;
+import mate.academy.model.Product;
 import java.math.BigDecimal;
 import java.util.List;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import mate.academy.model.Order;
-import mate.academy.model.Product;
 
 public class OrderServiceImpl implements OrderService {
     private static final Logger logger = LoggerFactory.getLogger(OrderServiceImpl.class);
